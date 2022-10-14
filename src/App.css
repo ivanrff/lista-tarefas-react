@@ -1,7 +1,89 @@
-.App {
-  text-align: center;
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7f4ff;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-  border: 2px solid;
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #7d48f8;
+}
+
+h2 {
+  padding: 15px 15px 15px 20px;
+  color: #f7f4ff;
+}
+
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #7d48f8;
+}
+
+.container, .row {
+  height: 80vh !important;
+}
+
+#lista-de-tarefas {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+
+}
+
+input {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  
+  font-size: 16pt !important;
+  
+}
+
+input.input, input.input:focus {
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color:#7d48f8;
+  color: #7d48f8;
+  background-color: #f7f4ff;
+}
+
+input.btn {
+  border-color:#7d48f8;
+  background-color: #7d48f8;
+  color: #f7f4ff;
+  transition: 0.2s;
+}
+
+input.btn:hover {
+  color: #f7f4ff;
+  font-size: 17pt !important;
+}
+
+input.input:focus, input.btn:focus {
+  outline:0;
+}
+
+label {
+  margin: 0 !important;
+}
+
+.col {
+  position: relative;
+}
+
+form, #notepad {
+  margin: auto !important;
+  position: absolute;
+  top:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+li {
+  color: #7d48f8;
+  font-size: 16pt;
+  font-weight: 600;
 }
