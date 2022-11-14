@@ -1,6 +1,3 @@
-# lista-tarefas-react
-Uma lista básica em react
+A basic to-do list with React.js
 
-Este website pode ser visualizado em:
-
-https://ivans-react-todolist.netlify.app/
+This single page website can be preview at: https://ivans-react-todolist.netlify.app/
